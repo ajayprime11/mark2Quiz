@@ -1,4 +1,12 @@
 var readlineSync = require('readline-sync');
+
+function welcome1() {
+ var userName = readlineSync.question("What's your name? ");
+
+  console.log("Welcome "+ userName + " do you know Ajay?");
+}
+welcome1();
+
 //high scores 
 
 var highScores = [
